@@ -1,0 +1,12 @@
+node_modules/
+dist/
+ml/venv/
+# Your trained model (Export copies it into Autonoma). It is learnt from your body, so it stays out of git.
+ml/out/
+ml/__pycache__/
+scripts/test_vectors.json
+# Your recordings are personal (body and hand movements). Keep them out of git unless you mean to share them.
+data/samples/
+*.log
+.env
+.verification/

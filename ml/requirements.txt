@@ -1,0 +1,6 @@
+# Expresso training environment (CPU only). Install with: npm run setup:ml
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu
+numpy==2.4.6
+onnx==1.23.1
+onnxscript==0.7.2

@@ -1,0 +1,28 @@
+{
+  "name": "expresso",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Expresso: record and train your own sign-language commands for Autonoma.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5180",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "setup:ml": "node scripts/setup-ml.mjs",
+    "match-test": "node scripts/match_test.ts"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.1.0",
+    "onnxruntime-web": "^1.30.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
