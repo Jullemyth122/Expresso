@@ -11,6 +11,10 @@ Training stays here so the extension stays light: Autonoma never trains and neve
 
 ![Expresso's Record tab: sign library with 15 takes per sign, camera off](docs/screenshots/expresso-record.jpg)
 
+![Expresso's Test tab: live hand and body tracking reads the SUBMIT sign at 61%; FILL THIS PHONE NUMBER was read at 99% a moment earlier](docs/screenshots/expresso-test-live.png)
+
+*Test tab, live: the skeleton is MediaPipe's tracking (22 fps on the laptop); the list on the right is what Autonoma would hear.*
+
 ```
  Expresso (this app, 127.0.0.1:5180)                      Autonoma (Chrome extension)
  ┌──────────┐   ┌─────────┐   ┌────────┐   ┌──────────┐     ┌──────────────────────────────┐

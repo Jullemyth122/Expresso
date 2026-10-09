@@ -28,6 +28,7 @@ Expresso is the sign-training companion to **[Autonoma](https://github.com/Julle
   - restyled Record, Train, Test and Export pages, camera view and styles;
   - README wording; production build check.
 - **2:05 AM:** Claude Code made Expresso its own git repository, linked to Autonoma, and wrote this time log.
+- **3:01 AM:** the developer's live screenshots added (Test tab recognising FILL THIS PHONE NUMBER at 99%).
 
 ## Files
 
@@ -65,6 +66,7 @@ Created and last-changed times come from the file system. "Kamay" means copied f
 | `public/fonts/InterVariable.woff2` + licence | 1:41 AM | — | Inter (SIL OFL 1.1), added by Codex | Font |
 | `public/favicon.svg` | 1:42 AM | — | ChatGPT Codex | Tab icon |
 | `docs/screenshots/expresso-record.jpg` | 1:48 AM | — | ChatGPT Codex (verification screenshot) | README screenshot, camera off |
+| `docs/screenshots/expresso-test-live.png` | 3:01 AM | — | Developer (screenshot) | README screenshot: Test tab recognising signs live |
 | `TIMELOG.md` | 2:05 AM | — | Claude Code | This file |
 
 **Not in git, on purpose:**
