@@ -1,0 +1,110 @@
+[
+  {
+    "sign": "FILL ALL PAGES",
+    "file": "FILL_ALL_PAGES",
+    "takes": 15,
+    "frames": 79,
+    "median_frames": 71,
+    "hands": "right",
+    "confidence": 0.8980899453163147
+  },
+  {
+    "sign": "FILL THIS",
+    "file": "FILL_THIS",
+    "takes": 15,
+    "frames": 47,
+    "median_frames": 52,
+    "hands": "right and left",
+    "confidence": 0.843806266784668
+  },
+  {
+    "sign": "FILL THIS EMAIL",
+    "file": "FILL_THIS_EMAIL",
+    "takes": 15,
+    "frames": 75,
+    "median_frames": 59,
+    "hands": "right and left",
+    "confidence": 0.8693584203720093
+  },
+  {
+    "sign": "FILL THIS FULL NAME",
+    "file": "FILL_THIS_FULL_NAME",
+    "takes": 15,
+    "frames": 78,
+    "median_frames": 60,
+    "hands": "right",
+    "confidence": 0.8283390998840332
+  },
+  {
+    "sign": "FILL THIS PAGE",
+    "file": "FILL_THIS_PAGE",
+    "takes": 15,
+    "frames": 68,
+    "median_frames": 77,
+    "hands": "right and left",
+    "confidence": 0.7214210033416748
+  },
+  {
+    "sign": "FILL THIS PHONE NUMBER",
+    "file": "FILL_THIS_PHONE_NUMBER",
+    "takes": 15,
+    "frames": 90,
+    "median_frames": 84,
+    "hands": "right and left",
+    "confidence": 0.8674131631851196
+  },
+  {
+    "sign": "NEXT",
+    "file": "NEXT",
+    "takes": 15,
+    "frames": 53,
+    "median_frames": 61,
+    "hands": "right and left",
+    "confidence": 0.9056873917579651
+  },
+  {
+    "sign": "NO",
+    "file": "NO",
+    "takes": 15,
+    "frames": 44,
+    "median_frames": 47,
+    "hands": "right and left",
+    "confidence": 0.8770594596862793
+  },
+  {
+    "sign": "STOP",
+    "file": "STOP",
+    "takes": 22,
+    "frames": 96,
+    "median_frames": 59,
+    "hands": "right and left",
+    "confidence": 0.8868738412857056
+  },
+  {
+    "sign": "SUBMIT",
+    "file": "SUBMIT",
+    "takes": 15,
+    "frames": 66,
+    "median_frames": 45,
+    "hands": "right and left",
+    "confidence": 0.9102842807769775
+  },
+  {
+    "sign": "WHAT IS MISSING",
+    "file": "WHAT_IS_MISSING",
+    "takes": 15,
+    "frames": 51,
+    "median_frames": 49,
+    "hands": "right and left",
+    "confidence": 0.8740704655647278
+  },
+  {
+    "sign": "YES",
+    "file": "YES",
+    "takes": 15,
+    "frames": 56,
+    "median_frames": 54,
+    "hands": "right and left",
+    "confidence": 0.8767812252044678
+  }
+]

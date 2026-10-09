@@ -7,6 +7,7 @@ Training stays here so the extension stays light: Autonoma never trains and neve
 > **Judges: Expresso is one half of a two-repo project.**
 > - **[Autonoma](https://github.com/Jullemyth122/Autonoma)** is the Chrome extension that fills forms by click, voice or sign. Its README has the full setup, and its [SUBMISSION.md](https://github.com/Jullemyth122/Autonoma/blob/main/SUBMISSION.md) answers the submission questions.
 > - **Expresso** (this repo) is where signs are recorded and trained. Clone both **side by side** (`Hackathon/Autonoma` and `Hackathon/Expresso`): Export copies the model into `../Autonoma/public/sign`.
+> - 📖 **[Sign guide](docs/SIGNS.md)**: what each of our 12 signs looks like (animated, drawn from our recordings), and how to sign for Autonoma.
 > - You don't need Expresso to try Autonoma's click and voice features. You need it only for Sign mode, and then you train your own signs (a model learns the person who recorded it).
 
 ![Expresso's Record tab: sign library with 15 takes per sign, camera off](docs/screenshots/expresso-record.jpg)
@@ -78,6 +79,7 @@ Autonoma reads a sign's name exactly as if you had **said** it, then runs it thr
 | `src/lib/` | MediaPipe hand and pose tracking, 142 numbers per frame (`features.ts`), sign cutting (`segmenter.ts`), ONNX classifier |
 | `server/api.ts` | local API inside the Vite dev server: saves recordings, runs training, serves the model, exports to Autonoma |
 | `ml/train.py` | trainer (1D CNN over 32 resampled frames → `ml/out/fsl.onnx`) |
+| `ml/render_signs.py` | draws every recorded sign as an animated stick figure + strip into `docs/signs/`, and writes the [sign guide](docs/SIGNS.md) |
 | `ml/features.py` | Python copy of the features, so training and the browser compute identical numbers |
 | `data/samples/` | your recordings (git-ignored: they are your body movements) |
 
