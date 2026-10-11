@@ -30,11 +30,18 @@ Training stays here so the extension stays light: Autonoma never trains and neve
 You need Node 20+ and Python 3.11 (`py -3.11` on Windows).
 
 ```powershell
+# Clone both repos side by side (Export writes into ../Autonoma/public/sign)
+mkdir C:\Hackathon; cd C:\Hackathon
+git clone https://github.com/Jullemyth122/Autonoma.git
+git clone https://github.com/Jullemyth122/Expresso.git
+
 cd C:\Hackathon\Expresso
 npm install
 npm run setup:ml      # makes ml/venv with CPU PyTorch (~1 GB download)
 npm run dev           # opens on http://127.0.0.1:5180
 ```
+
+Your recordings (`data/samples/`) and trained model (`ml/out/`) are not in git. If you saved a copy, put the `.json` files back into `data/samples/` and press **Train my model** to rebuild the model; otherwise start recording from step 1.
 
 ## How to use it
 

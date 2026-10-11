@@ -30,6 +30,7 @@ Expresso is the sign-training companion to **[Autonoma](https://github.com/Julle
 - **2:05 AM:** Claude Code made Expresso its own git repository, linked to Autonoma, and wrote this time log.
 - **3:01 AM:** the developer's live screenshots added (Test tab recognising FILL THIS PHONE NUMBER at 99%).
 - **4:00–4:15 AM:** Claude Code added the **sign guide** ([docs/SIGNS.md](docs/SIGNS.md)). `ml/render_signs.py` draws each trained sign from the developer's own recordings: the take the model recognises most surely, kept to frames where tracking was clean. Each sign gets an animated stick figure and a six-step strip with the wrist path. Only tracked points are drawn, no video.
+- **11 Oct, 8:40 AM:** Claude Code added the clone step to the README setup and a note on restoring recordings, before the local copy was cleaned up.
 
 ## Files
 
@@ -59,7 +60,7 @@ Created and last-changed times come from the file system. "Kamay" means copied f
 | `.gitignore` | 11:30 PM | 2:05 AM | Claude Code | Keeps recordings, the trained model and the Python env out of git |
 | `server/api.ts` | 11:31 PM | — | Claude Code | Local API: signs, recordings, training, model, export |
 | `ml/train.py` | 11:34 PM | — | Claude Code | Trainer: 1D CNN, held-out report, ONNX + self-test export |
-| `README.md` | 11:36 PM | 2:05 AM | Claude Code; Codex | Setup, workflow, link to Autonoma |
+| `README.md` | 11:36 PM | 8:40 AM, 11 Oct | Claude Code; Codex | Setup (clone both repos), workflow, link to Autonoma |
 | `package.json`, `package-lock.json` | 11:26 PM | 11:39 PM | Claude Code | Scripts and exact versions |
 | `src/App.tsx` | 1:47 AM | — | ChatGPT Codex | App shell: sidebar workflow, titles, quick guide |
 | `src/theme.ts`, `src/components/ThemePicker.tsx` | 1:31 AM | — | ChatGPT Codex | Colour themes |
